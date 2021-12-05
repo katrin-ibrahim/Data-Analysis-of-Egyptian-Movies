@@ -1,0 +1,132 @@
+import React, { Component } from 'react'
+import Navbar from '../components/Navbar'
+
+export default class MovieStats extends Component {
+    render() {
+        return (
+            <div className="flex-col">
+                <Navbar/>
+                {/*  */}
+                <div className="flex-row actor-genre-container" >
+
+                <div className="actor-genre-wrapper">
+                        <div className="actor-genre">
+                            <div className ="flex-col" style={{width:"80%",gap:"1rem"}}>
+                                <div className="title-2"> إحصائيات النوع الأدبي</div>
+                                <div className="sub-text" style={{alignSelf:"flex-end",paddingRight:"5rem"}}> تردد النوع الأدبي في الافلام </div>
+                                <div className="genre-table">
+                                    <table>
+                                        <tr>
+                                            <th>العدد</th>
+                                            <th >النوع</th>
+                                        </tr>
+                                        <tr>
+                                            <td>570</td>
+                                            <td>دراما</td>
+                                    
+                                        </tr>
+                                        <tr>
+                                            <td>249</td>
+                                            <td>رومانسي</td>
+                                    
+                                        </tr>
+                                        <tr>
+                                            <td>127</td>
+                                            <td>كوميدي</td>
+                                    
+                                        </tr>
+                                        <tr>
+                                            <td>109</td>
+                                            <td>تشويق و أثارة</td>
+                                    
+                                        </tr>
+                                        <tr>
+                                            <td>60</td>
+                                            <td>مغامرات</td>
+                                    
+                                        </tr>
+                                        <tr>
+                                            <td>19</td>
+                                            <td>استعراضي</td>
+                                    
+                                        </tr>
+                                        <tr>
+                                            <td>18</td>
+                                            <td>تاريخ</td>
+                                    
+                                        </tr>
+                                        <tr>
+                                            <td>16</td>
+                                            <td>سيرة ذاتية</td>
+                                    
+                                        </tr>
+                                        <tr>
+                                            <td>12</td>
+                                            <td>جريمة</td>
+                                        </tr>
+                                        <tr>
+                                              <td>10</td>
+                                              <td>عائلي </td>
+                                    
+                                        </tr>
+                                        <tr>
+                                            <td>9</td>
+                                            <td>حرب</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td>قصير</td>
+                                        </tr>
+                                        <tr>
+                                                <td>5</td>
+                                                <td>وثائقي</td>
+                                    
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>خيال علمي</td>
+                                    
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>رياضي</td>
+                                    
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>رعب</td>
+                                    
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>رسوم متحركة</td>
+                                    
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>خيال</td>
+                                    
+                                            </tr>
+                                    
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="actor-genre-img"></div>
+
+                    
+
+                </div>
+
+
+                {/* era stats */}
+                <div>
+
+                </div>
+               
+            </div>
+        )
+    }
+}
