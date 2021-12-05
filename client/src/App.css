@@ -14,6 +14,7 @@ html {
   align-items: center;
   justify-content: flex-end;
   gap:1rem;
+  
 }
 .flex-col{
   display: flex;
@@ -109,10 +110,11 @@ ul {
   font-size: 1rem;
   font-weight: bold;
   font-family: 'Cairo', sans-serif;
+  
 }
 .intro-button:hover{
   cursor: pointer;
-  background-color: #3194d1;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .about-container{
@@ -187,6 +189,22 @@ ul {
   width:70%;
   overflow: auto;
 }
+
+body::-webkit-scrollbar{
+  width: 15px;
+  height: 5px;
+
+}
+body::-webkit-scrollbar-thumb{
+  background: rgb(206, 206, 206);
+  border-radius: 10px;
+
+}
+body::-webkit-scrollbar-thumb:hover{
+  background-color: #aaaaaa;
+
+}
+
 .genre-table::-webkit-scrollbar {
   width: 5px;
   height: 5px;
@@ -224,12 +242,32 @@ th,td{
  
 }
 
+.era-stats-container{
+  height: auto;
+  width: 98%;
+  background-color:  #FFFBF6;
+  padding:20px 1% 20px 1%;
+
+}
+.button-grid{
+  display: grid;
+  gap: 2rem;
+  column-gap: 5rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
 
 .round-button{
   border-radius: 20px;
-  width: 7rem;
+  width: 8rem;
   height:2.5rem;
   background-color: transparent;
+  font-family: 'Cairo', sans-serif;
+}
+
+.round-button:hover{
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 

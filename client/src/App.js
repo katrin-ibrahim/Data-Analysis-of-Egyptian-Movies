@@ -8,7 +8,6 @@ import MovieStats from './Pages/MovieStats'
 function App() {
   return (
     <div className="App">
-    {/* <Navbar/> */}
     {/* <Home/> */}
     {/* <ActorStats/> */}
     <MovieStats/>

@@ -2,7 +2,52 @@ import React, { Component } from 'react'
 import Navbar from '../components/Navbar'
 
 export default class MovieStats extends Component {
+    state={
+        click1940 : false,
+        click1950 : false,
+        click1960 : false,
+        click1970 : false,
+    }
+
+    
+    handleClick1940(){
+    
+        this.setState({
+            click1940: !this.state.click1940 
+        });
+        this.setState({click1950:false});
+        this.setState({click1960:false});
+        this.setState({click1970:false});
+    }
+    handleClick1950(){
+    
+        this.setState({
+            click1950: !this.state.click1950 
+        });
+        this.setState({click1940:false});
+        this.setState({click1960:false});
+        this.setState({click1970:false});
+    }
+    handleClick1960(){
+    
+        this.setState({
+            click1960: !this.state.click1960 
+        });
+        this.setState({click1950:false});
+        this.setState({click1940:false});
+        this.setState({click1970:false});
+    }
+    handleClick1970(){
+    
+        this.setState({
+            click1970: !this.state.click1970 
+        });
+        this.setState({click1950:false});
+        this.setState({click1960:false});
+        this.setState({click1940:false});
+    }
     render() {
+        const{click1940,click1950,click1960,click1970} = this.state;
         return (
             <div className="flex-col">
                 <Navbar/>
@@ -122,8 +167,37 @@ export default class MovieStats extends Component {
 
 
                 {/* era stats */}
-                <div>
+                <div className="flex-col era-stats-container">
+                    <div className="flex-row" style={{justifyContent:"space-evenly",width:"100%"}}>
+                        <div className="button-grid">
+                            <button className="round-button" onClick={this.handleClick1940.bind(this)}>1940</button>
+                            <button className="round-button" onClick={this.handleClick1950.bind(this)}>1950</button>
+                            <button className="round-button"onClick={this.handleClick1960.bind(this)}>1960</button>
+                            <button className="round-button"onClick={this.handleClick1970.bind(this)}>1970</button>
+                        </div>
+                        <div className="flex-col">
+                            <div className="title-2" style={{color:"black"}}>إحصائيات الحقبة </div>
+                            <div className="sub-text" style={{color:"black"}}>اختار السنة لتري عدد الأفلام حسب النوع بها</div>
+                        </div>
+                    </div>
 
+                    {click1940?
+                    <div >
+                        its 1940
+                    </div>
+                   :click1950?
+                   <div >
+                   its 1950
+                   </div>:
+                   click1960?
+                   <div >
+                   its 1960
+                   </div>:
+                   click1970?
+                   <div >
+                   its 1970
+                   </div>:""
+                }
                 </div>
                
             </div>
