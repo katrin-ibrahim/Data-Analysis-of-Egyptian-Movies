@@ -1,4 +1,12 @@
 # Data Analysis of Egyptian Movies
+**To access the front-end
+
+- git clone repo
+- git checkout front-end
+- cd client
+- npm install
+- npm start
+
 **Brief about project:**
 - The project targets the textual analysis of Egyptian movie plot
   summaries that were curated from online sources, covering the four golden decades
