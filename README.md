@@ -4,6 +4,7 @@
 - clone repo
 - git checkout front-end
 - cd client
+- npm install
 - npm start
 
 **Brief about project:**
