@@ -31,23 +31,38 @@ export default class Home extends Component {
                         </div>
                     </div>
 
-                     <div className="members-txt">
-    
-                        <p className="title">أعضاء المجموعة</p>
-                        <div className="sub-text flex-row">
-                           
-                            <p style={{margin:"0"}}>محمد يوسف </p>
-                            <p style={{margin:"0"}}>هايدي تحفة  </p>
-                            <p style={{margin:"0"}}>محمود على </p>
-                            <p style={{margin:"0"}}>ماريا ماجد</p>
-                            <p style={{margin:"0"}}>كاترين عماد</p>
-                            
+                     <div className="flex-row "style={{width:"90%",gap:"5rem"}}>
 
+                     <div>
+                        <p className="title"> هل مازلت تريد ان تعرف المزيد؟</p>
+                            <div className="sub-text">  : يمكنك العثور على عملنا هنا <br/> 
+                            <a target="_blank" href="https://www.kaggle.com/mahmoudjobeel/data-analysis-of-egyptian-arabic-movies">kaggle.com/mahmoudjobeel/data-analysis-of-egyptian-arabic-movies</a>
                           
-
+                            </div>
+                            
                         </div>
-                    
-                    </div>
+
+
+                         <div className="members-txt">
+                            <p className="title">أعضاء المجموعة</p>
+                            <div className="sub-text flex-row">
+                         
+                                <p style={{margin:"0"}}>محمد يوسف </p>
+                                <p style={{margin:"0"}}>هايدي تحفة  </p>
+                                <p style={{margin:"0"}}>محمود على </p>
+                                <p style={{margin:"0"}}>ماريا ماجد</p>
+                                <p style={{margin:"0"}}>كاترين عماد</p>
+                         
+                            </div>
+                            
+                                             
+                        </div>
+                         
+                        
+                     </div>
+
+
+
                 </div>
             </div>
         )
