@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
 import Navbar from '../components/Navbar'
+import genre1940s from '../images/genre1940s.png'
+import genre1950s from '../images/genre1950s.png'
+import genre1960s from '../images/genre1960s.png'
+import genre1970s from '../images/genre1970s.png'
 
 export default class MovieStats extends Component {
     state={
@@ -183,20 +187,19 @@ export default class MovieStats extends Component {
 
                     {click1940?
                     <div className="img-display" >
-
-                        <div className="background genre-1940">its 1940</div>
+                          <img src={genre1940s}  style={{width:"50%"}} />
                     </div>
                    :click1950?
-                   <div >
-                   its 1950
-                   </div>:
+                   <div className="img-display">
+                   <img src={genre1950s}  style={{width:"50%"}} />
+                   </div >:
                    click1960?
-                   <div >
-                   its 1960
+                   <div className="img-display">
+                   <img src={genre1960s}  style={{width:"50%"}} />
                    </div>:
                    click1970?
-                   <div >
-                   its 1970
+                   <div className="img-display">
+                   <img src={genre1970s} style={{width:"50%"}} />
                    </div>:""
                 }
                 </div>

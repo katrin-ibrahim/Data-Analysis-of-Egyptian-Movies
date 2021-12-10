@@ -1,5 +1,13 @@
 import React, { Component } from 'react'
 import Navbar from '../components/Navbar'
+import actors1940s from '../images/actors1940s.png'
+import actors1950s from '../images/actors1950s.png'
+import actors1960s from '../images/actors1960s.png'
+import actors1970s from '../images/actors1970s.png'
+import actorsRomance from '../images/actorsRomance.png'
+import actorsDrama from '../images/actorsDrama.png'
+import actorsComedy from '../images/actorsComedy.png'
+
 
 export default class ActorStats extends Component {
     state={
@@ -97,7 +105,7 @@ export default class ActorStats extends Component {
 
 
                         <div className="flex-col" style={{marginRight:"2.5%",alignItems:'flex-end',width:"45%"}}>
-                            <div className="title-2" style={{color:"black"}}>إحصائيات الحقبة </div>
+                            <div className="title-3" >إحصائيات الحقبة </div>
                             <div className="sub-text" style={{color:"black",marginBottom:"2rem"}}>اختار السنة لتري أكثر الممثلين ظهورا  بها</div>
                             <div className="flex-row">
                                 <button className="round-button" onClick={this.handleClick1940.bind(this)}>1940</button>
@@ -109,22 +117,24 @@ export default class ActorStats extends Component {
                                 {click1940?
                                
                                  
-                                 <div className="actorEra50s">its 1940</div>
+                               <div className="flex-row" style={{height:"60vh"}}>
+                               <img src={actors1940s}  style={{width:"90%"}} />
+                              </div>
                                 
                                 :click1950?
                               
                                
-                                <div style={{width:"100%",height:"35vh"}}>
-                                    <div className="actorEra50s" > its 1950</div>
+                                <div className="flex-row" style={{height:"60vh"}}>
+                                 <img src={actors1950s}  style={{width:"90%"}} />
                                 </div>
                                 :
                                 click1960?
-                                <div >
-                                its 1960
+                                <div className="flex-row" style={{height:"60vh"}}>
+                                 <img src={actors1960s}  style={{width:"90%"}} />
                                 </div>:
                                 click1970?
-                                <div >
-                                its 1970
+                                <div className="flex-row" style={{height:"60vh"}}>
+                                 <img src={actors1970s}  style={{width:"90%"}} />
                                 </div>:""
                                 }
                             </div>
@@ -134,7 +144,7 @@ export default class ActorStats extends Component {
 
                         </div>
 
-                    <div style={{width:"100%",height:"80vh"}}>
+                    <div style={{width:"100%",height:"90vh"}}>
                         <div className="flex-row" style={{height:"100%",width:"100%",gap:"20px"}}>
                             <div className="flex-row" style={{height:"100%",width:"65%"}}>
                                 <div className="background pic3">p1</div>
@@ -144,7 +154,7 @@ export default class ActorStats extends Component {
 
 
                             <div className="flex-col" style={{marginRight:"2.5%",alignItems:'flex-end',width:"45%"}}>
-                            <div className="title-2" style={{color:"black"}}>   إحصائيات النوع الأدبي </div>
+                            <div className="title-3">   إحصائيات النوع الأدبي </div>
                             <div className="sub-text" style={{color:"black",marginBottom:"2rem"}}>اختار النوع لتري أكثر الممثلين ظهورا  به</div>
                             <div className="flex-row">
                                 <button className="round-button" onClick={this.handleClickDrama.bind(this)}>  دراما </button>
@@ -154,16 +164,16 @@ export default class ActorStats extends Component {
                             </div>
                             <div>
                                 {clickDrama?
-                                <div >
-                                its drama
+                                <div className="flex-row" style={{height:"60vh"}}>
+                                 <img src={actorsDrama}  style={{width:"90%"}} />
                                 </div>
                                 :clickRomance?
-                                <div >
-                                its romance
-                                </div>:
+                                <div className="flex-row" style={{height:"60vh"}}>
+                                 <img src={actorsRomance}  style={{width:"90%"}} />
+                                </div >:
                                 clickComedy?
-                                <div >
-                                its comedy
+                                <div className="flex-row" style={{height:"60vh"}}>
+                                 <img src={actorsComedy}  style={{width:"90%"}} />
                                 </div>:""
                                 }
                             </div>
@@ -177,8 +187,12 @@ export default class ActorStats extends Component {
  
                  
                 </div>
+
+              
               
              </div>
+
+
         )
     }
 }

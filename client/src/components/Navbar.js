@@ -6,8 +6,8 @@ export default class Navbar extends Component {
         return (
             <div className="nav-bar-container">
                 <ul className ="flex-row nav-bar">
+                   <li><Link to="/actor">   إحصائيات ممثلين   </Link></li>
                     <li><Link to="/movie">    إحصائيات افلام</Link></li>
-                    <li><Link to="/actor">   إحصائيات ممثلين   </Link></li>
                     <li><Link to="/">   الصفحة الرئيسية </Link></li>
                     
                 </ul>

@@ -156,6 +156,13 @@ a:hover{
   font-weight: bolder;
  
 }
+.title-3{
+  text-align: right;
+  color:black;
+  font-size: 2.5em;
+  font-weight: bolder;
+  margin-bottom:15px;
+}
 .sub-text{
   color:white;
   text-align: right;
@@ -311,7 +318,7 @@ th,td{
   width:100%;
   height: 90vh;
   padding: 5px;
-  border :3px solid red;
+  /* border :3px solid red; */
 }
 
 .actorEra50s{
@@ -324,11 +331,8 @@ th,td{
   padding: 1rem;
   background-image: url('./images/actors1950s.png');
 }
-.genre-1940{
-  width: 50%;
-  height: 100%;
-  padding: 1rem;
-  background-image: url('./images/genre1940s.png');
+img{
+  border-radius: 20px;
 }
 
 
