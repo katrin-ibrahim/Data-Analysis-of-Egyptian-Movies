@@ -67,7 +67,7 @@ export default class MovieStats extends Component {
                                         </tr>
                                         <tr>
                                             <td>570</td>
-                                            <td>دراما</td>
+                                            <td>دراما     </td>
                                     
                                         </tr>
                                         <tr>
@@ -182,8 +182,9 @@ export default class MovieStats extends Component {
                     </div>
 
                     {click1940?
-                    <div >
-                        its 1940
+                    <div className="img-display" >
+
+                        <div className="background genre-1940">its 1940</div>
                     </div>
                    :click1950?
                    <div >

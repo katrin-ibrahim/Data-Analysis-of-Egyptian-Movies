@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Navbar from '../components/Navbar'
+import { Outlet, Link } from "react-router-dom";
 
 export default class Home extends Component {
     render() {
@@ -11,7 +12,8 @@ export default class Home extends Component {
                         <p>
 في 5 نوفمبر 1896 ، تم عرض الأفلام القصيرة الأولى للأخوة لوميير في الإسكندرية, في بورصة توسون باشا ، بعد أقل من عام واحد من العرض الأول في باريس, جعل مصر رائدة السينما في المنطقة. القاهرة يجب أن تنتظر حتى 28 نوفمبر 1896 لعقد أول عرض سينمائي لها في حمام السباحة شنايدر. أدى نجاح هذه العروض المبكرة إلى افتتاح قاعات سينما صغيرة في أحياء مختلفة من الإسكندرية والقاهرة. استمر احتكار الإخوة لوميير حتى عام 1906 ، عندما باثي الفرنسية و حصلت شركات إيرنابورا الإيطالية على امتيازات في مصر وانضمت إلى السوق. ومع ذلك ، مع وصول تقنيات جديدة مثل المؤثرات الصوتية ، مشاهد النار على الموقع ونظام الترجمة, أصبحت الصناعة "مصرية" تدريجيا ، وجذبت الجماهير المحلية والمصريين المحليين للعمل فيها. في عام 1923 ، أسس محمد بيومي أول استوديو للسينما أنشأه مصري في شبرا ، القاهرة
                         </p>
-                         <button className="intro-button">اعرف مزيد</button>
+                        
+                         <button className="intro-button"> <Link to="/movie">    اعرف مزيد</Link> </button>
                     </div></div>
                     <div className="intro-img"><p style={{margin:"30px"}}>تاريخ السينما <br/>في مصر</p></div>
                 </div>
@@ -33,10 +35,16 @@ export default class Home extends Component {
     
                         <p className="title">أعضاء المجموعة</p>
                         <div className="sub-text flex-row">
+                           
+                            <p style={{margin:"0"}}>محمد يوسف </p>
+                            <p style={{margin:"0"}}>هايدي تحفة  </p>
+                            <p style={{margin:"0"}}>محمود على </p>
+                            <p style={{margin:"0"}}>ماريا ماجد</p>
                             <p style={{margin:"0"}}>كاترين عماد</p>
-                            <p style={{margin:"0"}}>كاترين عماد</p>
-                            <p style={{margin:"0"}}>كاترين عماد</p>
-                            <p style={{margin:"0"}}>كاترين عماد</p>
+                            
+
+                          
+
                         </div>
                     
                     </div>
