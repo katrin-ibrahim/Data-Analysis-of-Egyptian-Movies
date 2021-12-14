@@ -98,8 +98,8 @@ export default class ActorStats extends Component {
                 <div style={{width:"100%",height:"90vh"}}>
                         <div className="flex-row" style={{height:"100%",width:"100%",gap:"20px"}}>
                             <div className="flex-row" style={{width:"65%",height:"100%"}}>
-                                <div className="background pic1">p1</div>
-                                <div className="background pic2">p2</div>
+                                <div className="background pic1"></div>
+                                <div className="background pic2"></div>
                             </div>
                             
 
@@ -147,8 +147,8 @@ export default class ActorStats extends Component {
                     <div style={{width:"100%",height:"90vh"}}>
                         <div className="flex-row" style={{height:"100%",width:"100%",gap:"20px"}}>
                             <div className="flex-row" style={{height:"100%",width:"65%"}}>
-                                <div className="background pic3">p1</div>
-                                <div className="background pic4">p2</div>
+                                <div className="background pic3"></div>
+                                <div className="background pic4"></div>
                             </div>
                             
 
