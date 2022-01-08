@@ -1,11 +1,12 @@
 # Data Analysis of Egyptian Movies
-**To access the front-end
+**To access the front-end:**
 
 - git clone repo
-- git checkout front-end
-- cd client
-- npm install
-- npm start
+- open folder in vscode or any ide of your choice 
+- open a new terminal , and type the following :
+  - cd client
+  - npm install
+  - npm start
 
 **Brief about project:**
 - The project targets the textual analysis of Egyptian movie plot
