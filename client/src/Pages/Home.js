@@ -50,7 +50,6 @@ export default class Home extends Component {
                                 <p style={{margin:"0"}}>محمد يوسف </p>
                                 <p style={{margin:"0"}}>هايدي تحفة  </p>
                                 <p style={{margin:"0"}}>محمود على </p>
-                                <p style={{margin:"0"}}>ماريا ماجد</p>
                                 <p style={{margin:"0"}}>كاترين عماد</p>
                          
                             </div>

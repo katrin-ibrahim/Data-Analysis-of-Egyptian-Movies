@@ -7,6 +7,7 @@ import actors1970s from '../images/actors1970s.png'
 import actorsRomance from '../images/actorsRomance.png'
 import actorsDrama from '../images/actorsDrama.png'
 import actorsComedy from '../images/actorsComedy.png'
+// import {Link} from 'react-scroll'
 
 
 export default class ActorStats extends Component {
