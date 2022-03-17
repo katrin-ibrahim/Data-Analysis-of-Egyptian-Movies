@@ -6,7 +6,8 @@
 - open a new terminal , and type the following :
   ```cd client
      npm install
-     npm start```
+     npm start
+     ```
 
 **Brief about project:**
 - The project targets the textual analysis of Egyptian movie plot
