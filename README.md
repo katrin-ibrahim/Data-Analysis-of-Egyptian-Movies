@@ -5,10 +5,10 @@
 - open folder in vscode or any ide of your choice 
 - open a new terminal , and type the following :
   ```
-    cd client
-     npm install
-     npm start
-     ```
+  cd client
+  npm install
+  npm start
+   ```
 
 **Brief about project:**
 - The project targets the textual analysis of Egyptian movie plot
