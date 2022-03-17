@@ -4,7 +4,8 @@
 - git clone repo
 - open folder in vscode or any ide of your choice 
 - open a new terminal , and type the following :
-  ```cd client
+  ```
+    cd client
      npm install
      npm start
      ```
