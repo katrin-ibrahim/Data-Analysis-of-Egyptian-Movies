@@ -54,7 +54,7 @@ If you have any feedback, please reach out to me at katrinemadfathy@gmail.com
 - [@katrinibrahim](https://github.com/katrin-ibrahim)
 
 ## Data Analysis
-- [@mahmoudjobeel][https://github.com/mahmoudjobeel1]
+- [@mahmoudjobeel](https://github.com/mahmoudjobeel1)
 - [@mohamedy23](https://github.com/mohamedy23)
 
 
