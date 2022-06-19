@@ -15,7 +15,7 @@
 - Insights will be communicated via visualizations and a potential web platform.
 
 
-# Run Locally
+# Run Front-End Locally
 
 Clone the project
 
@@ -46,6 +46,17 @@ Start the server
 # Feedback
 
 If you have any feedback, please reach out to me at katrinemadfathy@gmail.com
+
+
+# Authors
+
+## Front-End
+- [@katrinibrahim](https://github.com/katrin-ibrahim)
+
+## Data Analysis
+- [@mahmoudjobeel][https://github.com/mahmoudjobeel1]
+- [@mohamedy23](https://github.com/mohamedy23)
+
 
 
 ## License
