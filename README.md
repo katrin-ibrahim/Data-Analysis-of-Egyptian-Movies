@@ -51,7 +51,7 @@ If you have any feedback, please reach out to me at katrinemadfathy@gmail.com
 # Authors
 
 ## Front-End
-- [@katrinibrahim](https://github.com/katrin-ibrahim)
+- [@katrin-ibrahim](https://github.com/katrin-ibrahim)
 
 ## Data Analysis
 - [@mahmoudjobeel](https://github.com/mahmoudjobeel1)
