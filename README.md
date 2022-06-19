@@ -1,16 +1,7 @@
 # Data Analysis of Egyptian Movies
-**To access the front-end:**
 
-- git clone repo
-- open folder in vscode or any ide of your choice 
-- open a new terminal , and type the following :
-  ```
-  cd client
-  npm install
-  npm start
-   ```
 
-**Brief about project:**
+# Brief about project:
 - The project targets the textual analysis of Egyptian movie plot
   summaries that were curated from online sources, covering the four golden decades
   of Egyptian Cinema.
@@ -22,5 +13,45 @@
   inconsistencies. Textual synopses will be processed and analyzed in order to
   discover movie clusters and similarities between movie plots.
 - Insights will be communicated via visualizations and a potential web platform.
+
+
+# Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+- open folder in vscode or any ide of your choice 
+
+Go to the project directory
+
+```bash
+  cd client
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
+
+# Feedback
+
+If you have any feedback, please reach out to me at katrinemadfathy@gmail.com
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
 
 
