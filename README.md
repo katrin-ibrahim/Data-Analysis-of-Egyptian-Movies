@@ -16,16 +16,17 @@
 
 # Screenshots
 This is the home page of the website
+
 ![Home Page](https://user-images.githubusercontent.com/85318392/175040903-93920c9e-e36d-4f33-8844-7870909b4de4.jpeg)
 
 
-
 This is a page that contains actor statistics
+
 ![Actor Statistics Page](https://user-images.githubusercontent.com/85318392/175041015-0ad1ea1f-11f3-4d3b-be3f-fcaaa95d9d11.jpeg)
 
 
-
 This is a page that contains movie statistics
+
 ![Movie Statistics Page](https://user-images.githubusercontent.com/85318392/175041030-1e844c07-b2cc-4f84-b8d3-8e322025a286.jpeg)
 
 
